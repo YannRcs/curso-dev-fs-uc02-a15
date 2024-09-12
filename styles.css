@@ -25,10 +25,18 @@ dd {
 
 body {
   font-family: 'Albert Sans', Arial, Helvetica, sans-serif;
-  width: 1000px;
+  /* width: 1000px;
+  max-width: 1000px; */
+  width: 65vw;
+  max-width: 65vw;
   height: auto;
-  max-width: 1000px;
-  background-color: #73774a;
+  /* background-color: #73774a; */
+  background: rgb(179,181,153);
+background: radial-gradient(circle, rgba(179,181,153,1) 11%,
+ rgba(166,168,137,1) 19%, rgba(145,147,111,1) 32%,
+  rgba(132,135,95,1) 40%, rgba(115,119,74,1) 50%,
+   rgba(100,104,62,1) 58%, rgba(85,89,51,1) 66%, rgba(70,73,39,1) 74%,
+    rgba(57,60,29,1) 81%, rgba(46,48,20,1) 87%, rgba(36,38,13,1) 92%, rgba(24,27,0,1) 95%, rgba(21,23,2,1) 100%);
   margin: 0 auto;
 }
 
@@ -85,4 +93,8 @@ body {
   background-color: #cacc9b;
   padding: 0 60px;
   padding-top: 50px;
+}
+
+.margem-titulos{
+  margin: 15px 0;
 }
