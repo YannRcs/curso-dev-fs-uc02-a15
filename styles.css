@@ -62,6 +62,9 @@ body {
 #banner figure {
   width: 70%;
   height: 90%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 #banner figure img{
